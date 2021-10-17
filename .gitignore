@@ -103,3 +103,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Prevent mac file
+.DS_Store
