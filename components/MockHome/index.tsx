@@ -8,7 +8,7 @@ import AvatarImage from '@assets/images/mock/avatar.svg';
 const MockHome = () => {
 
     return (
-        <div className="min-h-screen grid relative grid-rows-1 grid-cols-12 gap-1 items-center bg-mockbg animate-fade lg:gap-x-10 overflow-hidden">
+        <div className="min-h-screen grid relative grid-rows-1 grid-cols-12 items-center bg-mockbg animate-fade lg:gap-x-10 overflow-hidden">
             <div className="hidden lg:block lg:col-start-1 lg:col-span-3 xl:col-start-1 xl:col-span-6 w-max self-center">
                 <HeroImage className="hidden lg:block" />
             </div>
@@ -31,11 +31,16 @@ const MockHome = () => {
                     grid grid-rows-1 grid-cols-3
                     justify-items-center items-center
                     col-start-3 col-span-8
+                    gap-x-2
+                    mt-8
+                    mb-4
+                    sm:mt-0
+                    sm:mb-0
                     sm:col-start-4 sm:col-span-6 sm:gap-x-1
                     md:gap-x-2
                     lg:grid-rows-3 lg:grid-cols-1 lg:justify-items-center lg:items-end lg:absolute lg:bottom-0 lg:right-8 lg:col-start-11">
-                <div className="h-px w-16 bg-mockpri sm:w-28 lg:h-32 lg:w-px"></div>
-                <ul className="flex flex-row justify-center items-center content-center lg:flex-col">
+                <div className="h-px w-10 bg-mockpri sm:w-28 lg:h-32 lg:w-px"></div>
+                <ul className="flex flex-row justify-center items-center content-center mx-2 sm:mx-0 lg:flex-col">
                     <li className="mr-4 lg:mr-0 lg:mb-4">
                         <a href="https://www.facebook.com/tuanhuy.dev/" target="_blank" rel="noreferrer">
                             <FacebookIcon />
@@ -52,7 +57,7 @@ const MockHome = () => {
                         </a>
                     </li>
                 </ul>
-                <div className="h-px w-16 bg-mockpri sm:w-28 lg:h-32 lg:w-px"></div>
+                <div className="h-px w-10 bg-mockpri sm:w-28 lg:h-32 lg:w-px"></div>
             </div>
         </div>
     );
