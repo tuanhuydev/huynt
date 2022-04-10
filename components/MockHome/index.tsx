@@ -27,7 +27,6 @@ const MockHome = () => {
             </div>
 
             <div className="
-                    col-start-1 col-span-full
                     grid grid-rows-1 grid-cols-3
                     justify-items-center items-center
                     col-start-3 col-span-8
