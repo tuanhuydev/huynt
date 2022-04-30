@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <meta property="twitter:title" content="Huy Nguyen - Software Engineer" />
     <meta property="twitter:description" content="Hi there, I am Huy" />
     <meta property="twitter:image" content="/preview.jpeg" />
-        </Head>
+  </Head>
     <Component {...pageProps} />
     </>
 }
