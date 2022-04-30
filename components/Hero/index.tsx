@@ -1,5 +1,6 @@
-import GraphicMd from 'assets/images/graphic/graphic_md.svg';
-import GraphicSm from 'assets/images/graphic/graphic_sm.svg';
+import IconLg from 'assets/images/graphic/icon_lg.svg';
+import IconSm from 'assets/images/graphic/icon_sm.svg';
+
 import { useEffect, useState } from 'react';
 
 const useWidth = () => {
@@ -8,10 +9,11 @@ const useWidth = () => {
   const handleResize = () => setWidth(window.innerWidth);
   
   useEffect(() => {
+    handleResize();
     window.addEventListener('load', handleResize);
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
-  }, [handleResize]);
+  }, []);
   return width;
 };
 
@@ -37,10 +39,8 @@ const Hero = () => {
               <a className='gradient-button-outline text-md lg:text-base' href='#about-me'>My Portfolio</a>
             </div>
         </div>
-        <div className='pr-2 md:pr-2 lg:pr-4 2xl:pr-8 flex-column items-center justify-center order-1 lg:order-2 xlg:justify-start my-16 md:my-24 lg:my-48 mx-auto'>
-            {
-              width > 650 ? <GraphicMd /> : <GraphicSm />
-            }
+        <div className='pr-2 md:pr-2 lg:pr-4 2xl:pr-8 flex-column items-center justify-center order-1 lg:order-2 xlg:justify-start my-16 md:my-24 lg:my-32 mx-auto'>
+            { width > 650 ? <IconLg /> : <IconSm /> }
         </div>
       </div>
     </div>
