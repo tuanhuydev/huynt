@@ -1,7 +1,10 @@
 module.exports = {
-    purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+    purge: [
+      './pages/**/*.{js,ts,jsx,tsx}', 
+      './components/**/*.{js,ts,jsx,tsx}',
+      './containers/**/*.{js,ts,jsx,tsx}'
+    ],
     darkMode: 'class',
-    // mode: 'jit',
     theme: {
       extend: {
         maxWidth: {
@@ -59,10 +62,8 @@ module.exports = {
     },
     variants: {
       extend: {
-        extend: {
-          backgroundColor: ['dark'],
-          textColor: ['dark']
-        },
+        backgroundColor: ['dark'],
+        textColor: ['dark']
       },
     },
     plugins: [],

@@ -32,7 +32,7 @@ const MyWork = () => {
   ]
   return (
     <section className="container mx-auto max-w-5xl">
-      <div className="h-2/4 py-20 px-8" id="my-work">
+      <div className="h-2/4 py-20" id="my-work">
         <h2 className='gradient mb-4 text-2xl font-bold text-center lg:text-left xlg:text-left'><code>&#60;MyWork&#47;&#62;</code></h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:gap-2 lg:gap-4">
           {

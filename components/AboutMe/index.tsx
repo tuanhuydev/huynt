@@ -107,7 +107,7 @@ const AboutMe = () => {
   }, []);
   
   return (<div className="container mx-auto max-w-5xl">
-    <div className="h-2/6 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 pt-20 px-8" id="about-me">
+    <div className="h-2/6 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 pt-20" id="about-me">
       <div className="col-start-1 col-span-full lg:col-span-5">
         <h2 className='gradient mb-4 text-2xl font-bold text-center lg:text-left xlg:text-left'><code>&#60;AboutMe&#47;&#62;</code></h2>
         <div className="border border-grey300 dark:border-grey900 rounded-md flex flex-col items-center mx-auto lg:mx-0 xlg:mx-0 px-4 pt-6 pb-5" style={{ width: 315, height: 400 }}>
