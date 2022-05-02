@@ -1,12 +1,13 @@
 {
   "name": "huynt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "release": "standard-version"
   },
   "husky": {
     "hooks": {
@@ -17,14 +18,17 @@
     "@mui/icons-material": "^5.5.1",
     "@svgr/webpack": "^5.5.0",
     "clsx": "^1.1.1",
-    "next": "11.1.2",
+    "next": "^12.1.5",
     "postcss-import": "^14.0.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
-    "sass": "^1.43.2"
+    "react-wordcloud": "^1.2.7",
+    "sass": "^1.43.2",
+    "standard-version": "^9.3.2"
   },
   "devDependencies": {
+    "@types/node": "^17.0.31",
     "@types/react": "17.0.20",
     "autoprefixer": "^10.3.7",
     "eslint": "7.32.0",
