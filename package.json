@@ -1,12 +1,13 @@
 {
   "name": "huynt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "release": "standard-version"
   },
   "husky": {
     "hooks": {
@@ -23,7 +24,8 @@
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
     "react-wordcloud": "^1.2.7",
-    "sass": "^1.43.2"
+    "sass": "^1.43.2",
+    "standard-version": "^9.3.2"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
