@@ -64,7 +64,6 @@ const ThemeSwitch = () => {
   }
 
   useEffect(() => {
-    console.log('Run');
     reflectPreference();
   }, [reflectPreference]);
 
