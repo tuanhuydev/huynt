@@ -42,10 +42,7 @@
   background: -webkit-linear-gradient(272.58deg, #367C93 49.2%, rgba(16, 102, 131, 0.47) 114.67%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 1px solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(272.58deg, #367C93 49.2%, rgba(16, 102, 131, 0.47) 114.67%);
-  border-radius: 0.25rem;
+  border: 1px solid #367C93;
   text-transform: uppercase;
   padding: 0.75rem 1.5rem;
 }
