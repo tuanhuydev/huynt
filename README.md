@@ -2,7 +2,7 @@
 # huynt.dev
 Huy Nguyen Tuan personal website.
 ## Installation
-- Clone project at https://github.com/tuanhuydev/huynt.git](https://github.com/tuanhuydev/huynt.git)
+- Clone project at [https://github.com/tuanhuydev/huynt.git](https://github.com/tuanhuydev/huynt.git)
 - Install dependencies ```yarn install ```
 ## Usage
 - **Development:** ```yarn dev```
